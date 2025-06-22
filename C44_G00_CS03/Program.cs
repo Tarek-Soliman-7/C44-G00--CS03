@@ -85,24 +85,24 @@
             #endregion
 
             #region Q12
-            Console.WriteLine("Enter The Numbers: ");
-            int.TryParse(Console.ReadLine(), out int x);
-            int.TryParse(Console.ReadLine(), out int y);
-            Console.WriteLine("Enter The Operation: ");
-            char.TryParse(Console.ReadLine(), out char op);
-            if (op == '+')
-                Console.WriteLine($"x + y = {x + y}");
-            else if (op == '-')
-                Console.WriteLine($"x - y = {x - y}");
-            else if (op == '*')
-                Console.WriteLine($"x * y = {x * y}");
-            else if (op == '/')
-            {
-                if (y != 0)
-                    Console.WriteLine($"x / y = {x / y}");
-                else
-                    Console.WriteLine("Division by zero is not allowed.");
-            }
+            //Console.WriteLine("Enter The Numbers: ");
+            //int.TryParse(Console.ReadLine(), out int x);
+            //int.TryParse(Console.ReadLine(), out int y);
+            //Console.WriteLine("Enter The Operation: ");
+            //char.TryParse(Console.ReadLine(), out char op);
+            //if (op == '+')
+            //    Console.WriteLine($"x + y = {x + y}");
+            //else if (op == '-')
+            //    Console.WriteLine($"x - y = {x - y}");
+            //else if (op == '*')
+            //    Console.WriteLine($"x * y = {x * y}");
+            //else if (op == '/')
+            //{
+            //    if (y != 0)
+            //        Console.WriteLine($"x / y = {x / y}");
+            //    else
+            //        Console.WriteLine("Division by zero is not allowed.");
+            //}
             #endregion
         }
     }
